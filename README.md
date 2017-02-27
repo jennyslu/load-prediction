@@ -126,7 +126,6 @@ Skew:                           5.008   Prob(JB):                         0.00
 Kurtosis:                      41.863   Cond. No.                     3.80e+10
 ==============================================================================
 ```
-Given more time I would like to do
 
 ## RandomForest results
 
@@ -157,13 +156,17 @@ Feature importances:
 'dow']
 ```
 
+## Feature selection and hyperparameter tuning
+
+Given more time I would like to tune hyper parameters for the RFRegressor and also do more engineering of the weekend model to produce more consistent results. 
+
 ## Overall results
 
 ![results](results.png)
 
 We can see that model does not too bad up until April 2013 but testing error increases significantly at this point.
 
-Overall, training error remains low for the entire dataset. 
+Overall, training error remains low for the entire dataset.
 
 It appears that the model regularly fails to predict a certain time period accurately.
 
