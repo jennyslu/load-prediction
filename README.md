@@ -6,6 +6,8 @@ Model should be able to train and then predict next 24 hours.
 
 Both in-sample and out-of-sample validation should be done.
 
+Load forecasting is a technique used by power companies to predict the power or energy needed to balance the supply and load demand at all the times. It is mandatory for proper functioning of electrical industry.
+
 
 # Data
 The kWh data is 15 minute interval data and runs from roughly 11/1/12 to 12/1/13.
